@@ -1,0 +1,49 @@
+body
+{
+margin: 0;
+font-family: Arial;
+background: #1a0000;
+color: white;
+}
+header {
+background: #330000;
+padding: 15px;
+display: flex;
+justify-content: space-between;
+}
+header h1 {
+color: orange;
+}
+nav a {
+color: white;
+margin: 10px;
+text-decoration: none;
+}
+.hero {
+height: 400px;
+background: url('soleil.jpg') no-repeat center/cover;
+text-align: center;
+padding-top: 100px;
+}
+.hero h2 {
+font-size: 35px;
+color: #ff4d4d;
+}
+.btn {
+background: red;
+padding: 10px 20px;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+}
+.produits {
+padding: 20px;
+text-align: center;
+}
+.card {
+background: #330000;
+padding: 15px;
+margin: 10px;
+display: inline-block;
+width: 200px;
+}
